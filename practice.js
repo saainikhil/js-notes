@@ -44,7 +44,6 @@ let emp1 = {
     age:25,
     collage : "pr"
 }
-//  console.log(emp1.name);
 //  console.log(emp1["age"]);
 
 //  emp1.clg = "pu";
@@ -59,9 +58,9 @@ let emp1 = {
 // delete emp1.course;
 // console.log(emp1);
  
-// let keysinobject = Object.keys(emp1);
-// let valuesinobject = Object.values(emp1);
-// console.log(keysinobject,valuesinobject);
+let keysinobject = Object.keys(emp1);
+let valuesinobject = Object.values(emp1);
+console.log(keysinobject,valuesinobject);
  
 // for (let i in emp1){
 //     console.log(`This is keys ${i}, This is values ${emp1[i]}`);
@@ -69,7 +68,7 @@ let emp1 = {
  
 // const conversiontoObject = JSON.stringify(emp1);
 // console.log(conversiontoObject);
-console.log(JSON.parse(conversiontoObject));
+// console.log(JSON.parse(conversiontoObject));
 // for(let x in emp1){
 // //     // console.log(x)
 
