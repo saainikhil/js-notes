@@ -49,7 +49,7 @@ function test(){
     var city = "New York";
     console.log(city);  //New York  
 }
-console.log(city); // ReferenceError: city is not defined
+test(); // ReferenceError: city is not defined
 //Because city only exists inside the function.
 
 // VAR ignores block scope
@@ -59,4 +59,6 @@ if (true){
 console.log(a);  //10
 // Even though x is inside the block, it is accessible outside.
 //This causes bugs in large applications.
+
+
 

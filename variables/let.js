@@ -21,4 +21,6 @@ if (true){
     let city = "New York";
     console.log(city);  // New York
 }
-console.log(city); // ReferenceError: city is not defined   
+console.log(city); // ReferenceError: city is not defined.
+
+
