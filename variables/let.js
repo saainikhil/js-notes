@@ -5,11 +5,11 @@
 //syntax
 // let variableName = value;    
 
-let name = "NikhiL";
+let name = 'NikhiL';
 console.log(name); // NikhiL
 
 // reassignment
-name = "John";
+name = 'John';
 console.log(name); // John
 
 // redeclaration
@@ -18,8 +18,8 @@ console.log(name); // John
 
 
 //Block scoped
-if (true){
-    let city = "New York";
+{
+    let city = 'New York';
     console.log(city);  // New York
 }
 // console.log(city); // ReferenceError: city is not defined.

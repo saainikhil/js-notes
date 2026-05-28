@@ -190,10 +190,10 @@ o2.name = 'y';
 
 // Constructor Function
 {
-    function Person(name, age) {
+    const Person = function(name, age) {
         this.name = name;
         this.age = age;
-    }
+    };
     const p = new Person('Ctor', 20);
     console.log(p.name); // Ctor
 }
@@ -210,16 +210,16 @@ o2.name = 'y';
 
 // Factory Functions
 {
-    function createUser(name) { return { name, say() { console.log(name); } }; }
+    const createUser = function(name) { return { name, say() { console.log(name); } }; };
     const u = createUser('F');
     u.say(); // F
 }
 
 // Prototypes & Prototype Inheritance
 {
-    function Animal(name) { this.name = name; }
+    const Animal = function(name) { this.name = name; };
     Animal.prototype.speak = function() { console.log(this.name + ' speaks'); };
-    function Dog(name) { Animal.call(this, name); }
+    const Dog = function(name) { Animal.call(this, name); };
     Dog.prototype = Object.create(Animal.prototype);
     Dog.prototype.constructor = Dog;
     const d = new Dog('Doggo');
@@ -230,9 +230,9 @@ o2.name = 'y';
 {
     // Use closures or Symbols/private fields for encapsulation in real projects.
     class Counter {
-        #count = 0; // private field (ES2020+)
-        inc() { this.#count++; }
-        get() { return this.#count; }
+        constructor() { this._count = 0; }
+        inc() { this._count++; }
+        get() { return this._count; }
     }
     const c = new Counter();
     c.inc();

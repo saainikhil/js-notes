@@ -10,6 +10,8 @@
 
 
 // Syntax Explanation:
+let condition1 = false; // example placeholders for syntax
+let condition2 = true;
 if (condition1) {
     // code
 } else if (condition2) {
@@ -30,25 +32,25 @@ if (condition1) {
 let marks = 79;
 
 if (marks >= 90){
-    console.log("grade A");
+    console.log('grade A');
 } else if(marks >= 80) {
-    console.log("grade B");
+    console.log('grade B');
 } else if (marks >= 50) {
-    console.log("Grade C");
+    console.log('Grade C');
 } else {
-    console.log("Fail");
+    console.log('Fail');
 }  // putput: grade C
 
 // Real-World Practical Example
 let temperature = 35;
 
 if (temperature > 40) {
-    console.log("Very Hot");
+    console.log('Very Hot');
 } else if (temperature > 30) {
-    console.log("Hot Weather");
+    console.log('Hot Weather');
 } else if (temperature > 20) {
-    console.log("Normal Weather");
+    console.log('Normal Weather');
 } else {
-    console.log("Cold Weather");
+    console.log('Cold Weather');
 }  // output: Hot Weather
 

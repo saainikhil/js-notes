@@ -16,8 +16,8 @@ console.log(pi); // 3.14
 // pi = 3.14159; // TypeError: Assignment to constant variable.
 
 //block scoped
-if (true){
-    const a=10;
+{
+    const a = 10;
     console.log(a); //10
 }
 // console.log(a); // ReferenceError: a is not defined (commented to avoid TDZ error)
@@ -37,8 +37,8 @@ console.log(a); // [1,2,3,4,5]
 // we can modify the contents of the array because arrays are mutable.
 
 const person = {
-    name: "Sai"
+    name: 'Sai'
 };
-person.name = "Nikhil";
+person.name = 'Nikhil';
 console.log(person.name); // Nikhil
 // Similarly, we can modify the properties of an object declared with const.

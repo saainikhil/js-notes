@@ -14,7 +14,7 @@
 // Name of Box → Variable Name
 // Item inside Box → Value
 
-let name = "NikhiL";
+let name = 'NikhiL';
 // name → variable
 // "NikhiL" → stored value
 
@@ -30,23 +30,23 @@ let name = "NikhiL";
 // 1.var:-  var is the old way of declaring variables before ES6. 
 //  var can be function(global) scoped or global scoped, and it can be redeclared and reassigned. 
 
-// var age = 25;
-// console.log(age);
+var age = 25;
+console.log(age);
 
 // //redeclaration
-// var age = 25;
-// var age = 30;
-// console.log(age);   //30
+var age = 25;
+var age = 30;
+console.log(age);   //30
 
 // //reassignment
-// var age = 25;
-// age = 35;
-// console.log(age);    //35 
+var age = 25;
+age = 35;
+console.log(age);    //35 
 
 
 //function scope
 function test(){
-    var city = "New York";
+    var city = 'New York';
     console.log(city);
 }
 test(); // New York
@@ -54,7 +54,7 @@ test(); // New York
 // Above line is commented out so the file can run. Accessing `city` here would throw because `var city` is function-scoped.
 
 // VAR ignores block scope
-if (true){
+{
     var a = 10;
 }
 console.log(a);  //10

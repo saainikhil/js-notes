@@ -30,35 +30,35 @@ let age = 22;
 let haslicense = true;
 if (age >= 18){
     if (haslicense){
-        console.log("you can drive");
+        console.log('you can drive');
     }
 }   // output: you can drive
 
 
 // Real-World Practical Example
-let username = "admin";
+let username = 'admin';
 let otpVerified = true;
 
-if (username === "admin") {
+if (username === 'admin') {
 
     if (otpVerified) {
-        console.log("Access Granted");
+        console.log('Access Granted');
     }
 }  //output: Access Granted
 
 
 
 // if-else in nested statement:
-let username2 = "admin"; // renamed to avoid redeclaration in same scope
-let password = "1234";
+let username2 = 'admin'; // renamed to avoid redeclaration in same scope
+let password = '1234';
 
-if (username2 === "admin") {
-    if (password === "1234") {
-        console.log("Login successful");
+if (username2 === 'admin') {
+    if (password === '1234') {
+        console.log('Login successful');
     } else {
-        console.log("Wrong password");
+        console.log('Wrong password');
     }
 } else {
-    console.log("Invalid username");
+    console.log('Invalid username');
 }
 

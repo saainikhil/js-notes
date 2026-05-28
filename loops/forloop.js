@@ -91,7 +91,7 @@
 
 let totalstudents = 3;
 for (let i = 1; i <=3; i++){
-    console.log("send mail to student " + i);
+    console.log('send mail to student ' + i);
 }  
 //Output
 // Sending email to student 1

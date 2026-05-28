@@ -6,9 +6,10 @@
 // Console menus, retry logic, initial data fetch attempts, and user prompts.
 
 // Syntax
+let _condition_example = false; // placeholder so syntax example is safe
 do {
     // statements
-} while (condition);
+} while (_condition_example);
 
 // Flow explanation
 // 1. Execute the statements inside the `do` block once.

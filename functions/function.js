@@ -15,7 +15,7 @@ function functionName() {
 
 // Example 1 — 
 function greet() {
-    console.log("Hello World");
+    console.log('Hello World');
 }
 greet();   // Output: Hello World
 // Explanation
@@ -25,7 +25,7 @@ greet();   // Output: Hello World
 
 // Real-Time Example
 function sendOTP() {
-    console.log("OTP Sent Successfully");
+    console.log('OTP Sent Successfully');
 }
 sendOTP(); // Output: OTP Sent Successfully
 
@@ -49,13 +49,13 @@ sendOTP(); // Output: OTP Sent Successfully
 // Instead of writing same code repeatedly, use a function.
 
 // Without Function
-console.log("Welcome");
-console.log("Welcome");
-console.log("Welcome");
+console.log('Welcome');
+console.log('Welcome');
+console.log('Welcome');
 
 // With Function
 function welcome() {
-    console.log("Welcome");
+    console.log('Welcome');
 }
 welcome();
 welcome();

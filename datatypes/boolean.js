@@ -24,14 +24,14 @@ console.log(a < b); // Output: true (less than comparison)
 //Boolean in conditions:
 let age = 18;
 if (age>=18){
-    console.log("You can watch GOT."); // Output: You can watch GOT.
+    console.log('You can watch GOT.'); // Output: You can watch GOT.
 }
 
 //boolean conversions:-
 console.log(Boolean(0)); // Output: false
 console.log(Boolean(1));    // Output: true
-console.log(Boolean("")); // Output: false
-console.log(Boolean("Hello")); // Output: true
+console.log(Boolean('')); // Output: false
+console.log(Boolean('Hello')); // Output: true
 console.log(Boolean(null)); // Output: false
 console.log(Boolean(undefined)); // Output: false
 console.log(Boolean(NaN)); // Output: false

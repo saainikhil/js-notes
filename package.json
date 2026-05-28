@@ -1,0 +1,13 @@
+{
+  "name": "js-notes",
+  "version": "1.0.0",
+  "description": "Beginner JavaScript notes and examples",
+  "private": true,
+  "scripts": {
+    "lint": "eslint . --ext .js",
+    "lint:fix": "eslint . --ext .js --fix"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0"
+  }
+}

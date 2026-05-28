@@ -3,8 +3,8 @@ class Person {
         this.name = name;
         this.age = age;
     }
-    get personInfo() {
-        console.log("name: " + this.name + ", age: " + this.age);
+    personInfo() {
+        console.log('name: ' + this.name + ', age: ' + this.age);
     }
     salary(){
         console.log(`${this.name} got his salary`);
@@ -18,12 +18,12 @@ class Employee extends Person {
        this.salary = salary;
        this.company = company;
     }
-        get personInfo() {
-        console.log("name: " + this.name + ", age: " + this.age + ", salary: " + this.salary + ", company: " + this.company);
+        personInfo() {
+        console.log('name: ' + this.name + ', age: ' + this.age + ', salary: ' + this.salary + ', company: ' + this.company);
         }
 }
-const p1 = new Person("John", 30); 
-const e1 = new Employee("NikhiL",25, 25000, "xyz");
-p1.personInfo; 
+const p1 = new Person('John', 30); 
+const e1 = new Employee('NikhiL',25, 25000, 'xyz');
+p1.personInfo(); 
 p1.salary(); 
-e1.personInfo;  
+e1.personInfo();  

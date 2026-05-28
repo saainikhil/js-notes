@@ -22,6 +22,7 @@
 // If the condition is false, the code block is skipped.
 
 // Syntax of if statement:
+let condition = true; // example placeholder for syntax
 if (condition) {
     // code to be executed if condition is true
 }
@@ -38,7 +39,7 @@ if (condition) {
 // Example of if statement:
 let number = 10;
 if (number >5) {
-    console.log("The number is greater than 5");
+    console.log('The number is greater than 5');
 } // Output: The number is greater than 5
 
 // In this example, the condition (number > 5) is true, so the code block inside the if statement is executed, and 
@@ -57,7 +58,7 @@ if (number >5) {
 let age = 20;
 
 if (age >= 18) {
-    console.log("You are eligible to vote");
+    console.log('You are eligible to vote');
 } // Output: You are eligible to vote
 
 // In this example, the condition (age >= 18) is true, so the code block inside the if statement is executed, and 
@@ -68,7 +69,7 @@ let balance = 5000;
 let withdrawAmount = 2000;
 
 if (balance >= withdrawAmount) {
-    console.log("Withdrawal successful");
+    console.log('Withdrawal successful');
 }   // Output: Withdrawal successful
 
 // Explanation
