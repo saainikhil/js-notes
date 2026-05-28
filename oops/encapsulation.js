@@ -1,4 +1,5 @@
-class employee{
+class Employee{
+    // Class name updated to PascalCase: Employee
     setempdetails(name, id, salary, phoneno){
         this.name = name;
         this.id = id;
@@ -13,6 +14,6 @@ class employee{
     }
 }
 
-let emp1 = new employee();
-emp1.setempdetails("nikhil", 123, 50000, 9898989898);
+let emp1 = new Employee();
+emp1.setempdetails("nikhil", 123, 50000, "9898989898");
 emp1.getempdetails();

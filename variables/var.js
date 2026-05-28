@@ -30,34 +30,35 @@ let name = "NikhiL";
 // 1.var:-  var is the old way of declaring variables before ES6. 
 //  var can be function(global) scoped or global scoped, and it can be redeclared and reassigned. 
 
-var age = 25;
-console.log(age);
+// var age = 25;
+// console.log(age);
 
-//redeclaration
-var age = 25;
-var age = 30;
-console.log(age);   //30
+// //redeclaration
+// var age = 25;
+// var age = 30;
+// console.log(age);   //30
 
-//reassignment
-var age = 25;
-age = 35;
-console.log(age);    //35 
+// //reassignment
+// var age = 25;
+// age = 35;
+// console.log(age);    //35 
 
 
 //function scope
 function test(){
     var city = "New York";
-    console.log(city);  //New York  
+    console.log(city);
 }
-test(); // ReferenceError: city is not defined
-//Because city only exists inside the function.
+test(); // New York
+// console.log(city); // ReferenceError: city is not defined
+// Above line is commented out so the file can run. Accessing `city` here would throw because `var city` is function-scoped.
 
 // VAR ignores block scope
 if (true){
     var a = 10;
 }
 console.log(a);  //10
-// Even though x is inside the block, it is accessible outside.
+// Even though a is inside the block, it is accessible outside.
 //This causes bugs in large applications.
 
 

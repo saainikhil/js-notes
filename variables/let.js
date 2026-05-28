@@ -13,7 +13,8 @@ name = "John";
 console.log(name); // John
 
 // redeclaration
-let name = "Alice"; // SyntaxError: Identifier 'name' has already been declared
+// let name = "Alice"; // SyntaxError: Identifier 'name' has already been declared
+// Above redeclaration is commented out so the file can run. Redeclaring a `let` in the same scope throws a SyntaxError.
 
 
 //Block scoped
@@ -21,6 +22,6 @@ if (true){
     let city = "New York";
     console.log(city);  // New York
 }
-console.log(city); // ReferenceError: city is not defined.
+// console.log(city); // ReferenceError: city is not defined.
 
 

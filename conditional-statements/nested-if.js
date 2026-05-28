@@ -1,6 +1,6 @@
 // Nest if statement:
 
-const { useLayoutEffect } = require("react");
+// Removed unrelated React import which was accidental in this learning file.
 
 // Simple Definition:
 // An if statement inside another if statement is called nested if.
@@ -49,10 +49,10 @@ if (username === "admin") {
 
 
 // if-else in nested statement:
-let username = "admin";
+let username2 = "admin"; // renamed to avoid redeclaration in same scope
 let password = "1234";
 
-if (username === "admin") {
+if (username2 === "admin") {
     if (password === "1234") {
         console.log("Login successful");
     } else {

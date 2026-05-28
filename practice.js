@@ -39,11 +39,11 @@
 //     console.log(x+":"+person[x])
 // }
  
-let emp1 = {
-    name:"Madhu",
-    age:25,
-    collage : "pr"
-}
+// let emp1 = {
+//     name:"Madhu",
+//     age:25,
+//     collage : "pr"
+// }
 //  console.log(emp1["age"]);
 
 //  emp1.clg = "pu";
@@ -58,9 +58,9 @@ let emp1 = {
 // delete emp1.course;
 // console.log(emp1);
  
-let keysinobject = Object.keys(emp1);
-let valuesinobject = Object.values(emp1);
-console.log(keysinobject,valuesinobject);
+// let keysinobject = Object.keys(emp1);
+// let valuesinobject = Object.values(emp1);
+// console.log(keysinobject,valuesinobject);
  
 // for (let i in emp1){
 //     console.log(`This is keys ${i}, This is values ${emp1[i]}`);
@@ -76,3 +76,22 @@ console.log(keysinobject,valuesinobject);
 // //     // console.log(emp1[x])}
 
 // // console.log(x+":"+emp1[x])}
+
+let array = [0,1,2,3,4,5,6];
+let copy = array.slice(0,3);
+console.log(copy);
+
+let array1 = [0,1,2,3,4,5,6];
+let remove = array1.splice(0,3);
+console.log(array1);
+
+
+
+
+
+
+
+
+
+
+

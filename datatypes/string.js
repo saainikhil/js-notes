@@ -6,38 +6,45 @@
 //let variableName = "stringValue";
 
 //Examples:
-let name = "john snow";
-let greeting = 'Hello, World!';
-let message = `Welcome to JavaScript!`;
+{
+	let name = "john snow";
+	let greeting = 'Hello, World!';
+	let message = `Welcome to JavaScript!`;
 
-console.log(name);
-console.log(greeting);
-console.log(message);   
+	console.log(name);
+	console.log(greeting);
+	console.log(message);
+}
 
 //string concatenation
 let firstname = "sir";
 let lastname = "jorah";
-console.log(firstname + " " + lastname); // Output: "sir jorah"
+console.log("hello this is "+firstname + " " + lastname); // Output: "hello this is sir jorah"
 
 //Template literals
 //Template literals are enclosed by backticks (` `) and allow for embedded expressions using ${expression}.
 //They provide an easy way to create strings with dynamic content.
-let name = "daenerys";
-let num = 20000;
-console.log(`my name is ${name} and i need ${num} unsullied.`); // Output: "my name is daenerys and i need 20000 unsullied."
+{
+	let name = "daenerys";
+	let num = 20000;
+	console.log(`my name is ${name} and i need ${num} unsullied.`); // Output: "my name is daenerys and i need 20000 unsullied."
+}
 
 // Escape Characters:-
 // Escape characters are used to insert characters that are otherwise difficult or impossible to type directly in a string.
 // The backslash (\) is used as the escape character.
-let message = "He said, \"Hello!\""; // Output: He said, "Hello!"
-let poem = "Roses are red\nViolets are blue"; 
+
+	let message = "He said, \"Hello!\""; // Output: He said, "Hello!"
+	let poem = "Roses are red\nViolets are blue"; 
 // Output:
 // Roses are red
 // Violets are blue
 
 //Tab space
-let name = "Arya";
-console.log("My name is\t" + name); // Output: My name is    Arya
+{
+	let name = "Arya";
+	console.log("My name is\t" + name); // Output: My name is    Arya
+}
 
 //String properties and methods:-
 let place = "Dragonstone";
@@ -57,9 +64,11 @@ console.log(typeof place); // Output: string
 
 //Once created, strings cannot be changed directly.
 
-let name = "Tyrion";
-name[0] = "D";
-console.log(name); // Output: "Tyrion" (the original string remains unchanged)
+{
+	let name = "Tyrion";
+	name[0] = "D";
+	console.log(name); // Output: "Tyrion" (the original string remains unchanged)
+}
 
 //To modify a string, you need to create a new string based on the original one.
 

@@ -1,4 +1,4 @@
-class person {
+class Person {
     constructor(name, age) {
         this.name = name;
         this.age = age;
@@ -12,7 +12,7 @@ class person {
 }
 
 
-class employee extends person {
+class Employee extends Person {
     constructor(name, age, salary, company) {
        super(name, age);
        this.salary = salary;
@@ -22,8 +22,8 @@ class employee extends person {
         console.log("name: " + this.name + ", age: " + this.age + ", salary: " + this.salary + ", company: " + this.company);
         }
 }
-p1 = new person("John", 30); 
-e1 = new employee("NikhiL",25, 25000, "xyz");
+const p1 = new Person("John", 30); 
+const e1 = new Employee("NikhiL",25, 25000, "xyz");
 p1.personInfo; 
 p1.salary(); 
 e1.personInfo;  
