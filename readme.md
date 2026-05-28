@@ -1,3 +1,4 @@
+Javascript PPt link:- https://docs.google.com/presentation/d/1ggHTXQCaUbp5n3rLZ5fXIMeoIE5tiNYr/edit?usp=sharing&ouid=109858732061398983286&rtpof=true&sd=true
 # JavaScript Notes for Beginners 🚀
 
 A beginner-friendly JavaScript notes repository created to help students learn JavaScript from basics to intermediate concepts with simple explanations, examples, outputs, and real-world use cases.
